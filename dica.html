@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dica da Senha</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Estilo para ocultar as dicas inicialmente */
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 10px;
+            position: relative;
+            cursor: pointer;
+            margin: 10px;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 500px;
+            height: 100%;
+            background-color:#7D4AD9;
+            border-radius: 10px;
+            margin-bottom: 25px;
+            z-index: 1;
+            transition: opacity 0.3s ease;
+            opacity: 1; /* Inicialmente visível */
+        }
+        h2{
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dica da Senha</h1>
+    <h2>Usuário:</h2>
+    <ul>
+        <li><div class="overlay"></div>São 9 caracteres.</li>
+        <li><div class="overlay"></div>O primeiro é maiúsculo.</li>
+        <li><div class="overlay"></div>Você não gosta desse apelido.</li>
+        <li><div class="overlay"></div>Foi o primeiro apelido que eu te dei.</li>
+    </ul>
+    <h2>Senha:</h2>
+    <ul>
+        <li><div class="overlay"></div>A primeira parte da senha é outro apelido.</li>
+        <li><div class="overlay"></div>Outro apelido que eu te dei.</li>
+        <li><div class="overlay"></div>Você também não gosta.</li>
+        <li><div class="overlay"></div>Eu sempre falo quando você sai do banho.</li>
+        <li><div class="overlay"></div>A segunda parte envolve uma data.</li>
+        <li><div class="overlay"></div>Nossa data de namoro.</li>
+        <li><div class="overlay"></div>Coloque tudo junto em minúsculo.</li>
+    </ul>
+    <a href="index.html"><img id="seta" src="seta2.svg" alt="seta de voltar"></a>
+
+    <script>
+        const overlays = document.querySelectorAll('.overlay');
+        overlays.forEach(overlay => {
+            overlay.addEventListener('click', () => {
+                overlay.style.opacity = '0'; // Ao clicar, o fundo desaparece
+            });
+        });
+    </script>
+</body>
+</html>
