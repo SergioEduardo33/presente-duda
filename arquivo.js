@@ -1,7 +1,7 @@
 const usuario_input = document.getElementById("usuario");
 const senha_input = document.getElementById("senha");
 
-const usuario_oficial = "calopsita"; //calopsita
+const usuario_oficial = "Calopsita"; //calopsita
 const senha_oficial = "benjamin19032022";//benjamin19032022
 
 const botao_entrar= document.getElementById("entrar");
