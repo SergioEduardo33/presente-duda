@@ -21,7 +21,7 @@ const perguntas = [
         topico: "Sobre o namoro",
         pergunta: "Pergunta 4: Qual foi a primeira série/filme que assistimos juntos ?",
         opcoes: ["Cavaleiro da Lua", "Batman", "Esposa de Mentirinha", "Sexo Sem Compromisso", "Amor com data marcada"],
-        resposta: "Simplesmente Acontece"
+        resposta: "Sexo Sem Compromisso"
     },
     {
         topico: "Sobre o namoro",
