@@ -105,7 +105,7 @@ proxima_pergunta.addEventListener("click", () => proximaPergunta());
 
 function carregar_pergunta() {
     const pergunta_atual_obj = perguntas[pergunta_atual];
-    topico_pergunta.textContent = `Tópico: ${pergunta_atual_obj.topico}`;
+    topico_pergunta.textContent = `${pergunta_atual_obj.topico}`;
     pergunta_texto.textContent = pergunta_atual_obj.pergunta;
 
     opcoes_container.innerHTML = "";
