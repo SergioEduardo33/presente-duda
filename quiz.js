@@ -7,7 +7,7 @@ const perguntas = [
     },
     {
         topico: "Sobre o namoro",
-        pergunta: "Pergunta 2: Quem deu o primeiro beijo ?",
+        pergunta: "Pergunta 2: Quem beijou primeiro ?",
         opcoes: ["Sérgio", "Maria Eduarda(roubou meu beijo desesperada)", "Nenhum dos dois", "Não nos beijamos até hoje"],
         resposta: "Maria Eduarda(roubou meu beijo desesperada)"
     },
